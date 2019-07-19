@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="0.25 0.75">
+        <HSNode splits="0.13 0.14">
+            <CNode>
+                <Component label="Asserted hierarchy">
+                    <Property id="pluginId" value="org.protege.editor.owl.OWLAssertedClassHierarchy"/>
+                </Component>
+            </CNode>
+            <CNode>
+                <Component label="Individuals">
+                    <Property id="pluginId" value="org.protege.editor.owl.OWLIndividualsList"/>
+                </Component>
+            </CNode>
+        </HSNode>
+        <CNode>
+            <Component label="Metamo Plugin">
+                <Property id="pluginId" value="Metamodelling.View"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>
