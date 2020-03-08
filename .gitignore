@@ -15,5 +15,3 @@ META-INF/
 # Maven
 log/
 target/
-
-.classpath

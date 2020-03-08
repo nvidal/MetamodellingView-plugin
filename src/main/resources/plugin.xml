@@ -4,10 +4,21 @@
 <plugin>
    <extension id="View"
               point="org.protege.editor.core.application.ViewComponent">
-      <label value="Metamodelling"/>
+      <label value="Metamodelling view"/>
       <class value="uy.edu.fing.metamodelling.view.MetamodellingViewComponent"/>
-      <category value="@org.protege.ontologycategory"/>
+      <headerColor value="8C1717"/>
+      <category value="Metamodelling"/>
    </extension>
+
+   <!--extension id="MetamodellingManagerTab"
+              point="org.protege.editor.core.application.WorkspaceTab">
+      <label value="Metamodelling Plugin"/>
+      <class value="uy.edu.fing.metamodelling.tabs.MetamodellingTab"/>
+      <index value="X"/>
+      <editorKitId value="OWLEditorKit"/>
+      <defaultViewConfigFileName value="viewconfig-MetamodellingTab.xml"/>
+   </extension-->   
+
    <extension id="ExampleWorkspaceTab"
               point="org.protege.editor.core.application.WorkspaceTab">
       <label value="Metamodelling Plugin"/>
@@ -15,5 +26,6 @@
       <index value="X"/>
       <editorKitId value="OWLEditorKit"/>
       <defaultViewConfigFileName value="viewconfig-MetamodellingTab.xml"/>
-   </extension>   
+   </extension>  
+
 </plugin>

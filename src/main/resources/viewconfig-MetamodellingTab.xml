@@ -14,8 +14,8 @@
             </CNode>
         </HSNode>
         <CNode>
-            <Component label="Metamo Plugin">
-                <Property id="pluginId" value="Metamodelling.View"/>
+            <Component label="Metamodelling View">
+                <Property id="pluginId" value="uy.edu.fing.MetamodellingManager.View"/>
             </Component>
         </CNode>
     </VSNode>
